@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import AppHeader from './AppHeader'
+// import AppHeader from './AppHeader'
 
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App type='JOLO!'/>, document.getElementById('root'));
 
 
 //

@@ -8,12 +8,12 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <AppHeader/>
-                <AppIntro/>
-
+                <AppHeader name={this.props.type}/>
+                <AppIntro path="WTF?!"/>
             </div>
         );
     }
 }
 
 export default App;
+
